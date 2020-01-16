@@ -100,6 +100,7 @@ mkdir -p $BUILD_DIR/.profile.d
 cat <<EOF >$BUILD_DIR/.profile.d/heroku-google-cloud.sh
 export PATH="/app/vendor/google-cloud-sdk/bin:\$PATH"
 gcloud auth activate-service-account --key-file /app/google-credentials.json
+gcloud config set project rankchoice-1574619997268  
 EOF
 
 else 
@@ -112,3 +113,8 @@ export PATH="/app/vendor/google-cloud-sdk/bin:\$PATH"
 EOF
 
 fi
+
+# Maybe add this next with our files in it.
+# gcloud auth activate-service-account --key-file=credential_key.json
+# gcloud config set project my-project
+#  just added this to line 103
