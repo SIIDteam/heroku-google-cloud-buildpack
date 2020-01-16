@@ -36,7 +36,7 @@ echo "-----> Installing the Google Cloud SDK"
 
 # install our SDK silently
 # (google apparently doesn't really know what silent means)
-$BUILD_DIR/vendor/google-cloud-sdk/install.sh --disable-prompts
+$BUILD_DIR/vendor/google-cloud-sdk/install.sh --quiet
 
 if [ -f $ENV_DIR/GOOGLE_TYPE ] && \
    [ -f $ENV_DIR/GOOGLE_PROJECT_ID ] && \
