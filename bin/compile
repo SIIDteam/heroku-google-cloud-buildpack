@@ -16,9 +16,12 @@ echo "-----> Downloading and unpacking the Google Cloud SDK"
 
 # change to the the BUILD_DIR ($1)
 cd $BUILD_DIR
+echo "Build_dir"
+echo $BUILD_DIR
+
 
 # download the binary (-O) silently (-s)
-curl $FILE_URL -L -s -O
+curl $FILE_URL -L -O
 
 # make a *barf* vendor dir
 mkdir $BUILD_DIR/vendor
