@@ -3,7 +3,7 @@
 
 ### Constants
 
-FILE_URL="https://github.com/SIIDteam/heroku-google-cloud-buildpack/blob/6741a65450584401c4c3f779955344bf390cd7f7/releases/google-cloud-sdk-276.0.0-linux-x86_64.tar.gz"
+FILE_URL="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-276.0.0-linux-x86_64.tar.gz"
 FILE_NAME="google-cloud-sdk-276.0.0-linux-x86_64.tar.gz"
 
 ### Configure directories
