@@ -27,7 +27,7 @@ curl $FILE_URL -L -O
 mkdir $BUILD_DIR/vendor
 
 # untar
-tar xvf $FILE_NAME -C $BUILD_DIR/vendor
+tar xf $FILE_NAME -C $BUILD_DIR/vendor
 
 # delete
 rm $FILE_NAME
